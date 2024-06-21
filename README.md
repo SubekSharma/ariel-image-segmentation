@@ -28,6 +28,9 @@ git clone https://github.com/parth1620/Road_seg_dataset.git
 
 U-Net is a convolutional neural network architecture designed for biomedical image segmentation but has been widely adopted for various segmentation tasks. It consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. The U-Net architecture ensures that the model can learn from a limited amount of data and produce high-quality segmentation results.
 
+![image](https://github.com/SubekSharma/ariel-image-segmentation/assets/71229363/07ef0359-6157-4848-bb5f-6faf61d61b3f)
+
+
 ### Key Features of U-Net:
 - **Contracting Path**: A series of convolutional and max-pooling layers to capture features and reduce spatial dimensions.
 - **Bottleneck**: The deepest layer of the network which captures the most abstract representation of the input.
