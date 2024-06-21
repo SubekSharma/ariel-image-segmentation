@@ -1,10 +1,11 @@
 # Aerial Image Segmentation with PyTorch
 
-This repository contains a project for performing aerial image segmentation using PyTorch. The notebook demonstrates how to preprocess data, build and train a segmentation model, and evaluate its performance.
+This repository contains a project for performing aerial image segmentation using PyTorch. The notebook demonstrates how to preprocess data, build and train a U-Net segmentation model, and evaluate its performance.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Dataset](#dataset)
+- [U-Net Architecture](#u-net-architecture)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Results](#results)
@@ -13,7 +14,7 @@ This repository contains a project for performing aerial image segmentation usin
 
 ## Introduction
 
-Aerial image segmentation is a crucial task in various applications such as urban planning, agriculture, and disaster management. This project uses a Convolutional Neural Network (CNN) implemented in PyTorch to segment aerial images.
+Aerial image segmentation is a crucial task in various applications such as urban planning, agriculture, and disaster management. This project uses a Convolutional Neural Network (CNN), specifically a U-Net architecture, implemented in PyTorch to segment aerial images.
 
 ## Dataset
 
@@ -22,6 +23,15 @@ The dataset used in this project is available in the `Road_seg_dataset` reposito
 ```bash
 git clone https://github.com/parth1620/Road_seg_dataset.git
 ```
+
+## U-Net Architecture
+
+U-Net is a convolutional neural network architecture designed for biomedical image segmentation but has been widely adopted for various segmentation tasks. It consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. The U-Net architecture ensures that the model can learn from a limited amount of data and produce high-quality segmentation results.
+
+### Key Features of U-Net:
+- **Contracting Path**: A series of convolutional and max-pooling layers to capture features and reduce spatial dimensions.
+- **Bottleneck**: The deepest layer of the network which captures the most abstract representation of the input.
+- **Expanding Path**: A series of up-convolutions and concatenations with high-resolution features from the contracting path to improve localization accuracy.
 
 ## Setup
 
@@ -70,6 +80,3 @@ Contributions are welcome! If you have any suggestions, bug reports, or improvem
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to replace the placeholder text and links with the actual details from your repository. If you need specific information included, let me know!
