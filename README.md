@@ -70,7 +70,8 @@ To set up the project, follow these steps:
 
 The notebook includes various visualizations to show the segmentation results. Below are some sample outputs from the model:
 
-- (Include sample output images here)
+![image](https://github.com/SubekSharma/ariel-image-segmentation/assets/71229363/a00a06b9-18fc-412a-ba2c-1c8ed604ba32)
+
 
 ## Contributing
 
