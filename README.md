@@ -1,7 +1,3 @@
-Since I can't directly access the page, I'll guide you on how to update your README file based on common practices and typical content structure. Here’s an updated version of the README file, considering standard sections and what you might need:
-
----
-
 # Aerial Image Segmentation with PyTorch
 
 This repository contains a project for performing aerial image segmentation using PyTorch. The notebook demonstrates how to preprocess data, build and train a segmentation model, and evaluate its performance.
